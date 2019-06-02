@@ -7,7 +7,7 @@ package com.example.haha.myapplication;
 public class Book {
     private int picId;
     private  String name;
-    private  String zuoze;//作者啊
+    private  String zuoze;//作者啊a
 
     public Book(int picId, String name,String zuoze) {
         this.picId = picId;
