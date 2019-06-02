@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haha.myapplication.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广西机电职业技术学院"
+        android:textSize="30sp"
+
+        android:layout_marginTop="30dp"/>
+<ImageView
+    android:id="@+id/mainpic"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/gxcme"
+
+    />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名："/>
+        <EditText
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名"
+            android:inputType="textPersonName"
+            android:id="@+id/username"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码:"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:id="@+id/pwd"
+            />
+    </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/jizhu"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/xs_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="学生"/>
+            <RadioButton
+                android:id="@+id/ls_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="老师"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/login_bt"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="登录"/>
+        <Button
+            android:id="@+id/reg_bt"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务电话："/>
+        <TextView
+            android:id="@+id/tel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07713246041"/>
+        </LinearLayout>
+
+
+</LinearLayout>

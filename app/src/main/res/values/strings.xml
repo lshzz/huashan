@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MidtermTest</string>
+    <string-array name="Usernames">
+        <item>zhangsan</item>
+        <item>admin</item>
+        <item>qq</item>
+    </string-array>
+    <string-array name="Passwords">
+        <item>123</item>
+        <item>123456</item>
+        <item>1111</item>
+    </string-array>
+
+    <string-array name="booknamearray">
+        <item>Java程序设计（慕课版）</item>
+        <item>C++程序设计教程</item>
+        <item>Android游戏案例开发大全</item>
+        <item>移动游戏UI设计专业教程</item>
+    </string-array>
+    <string-array name="zuozearray">
+        <item>哈里森</item>
+        <item>比尔盖茨</item>
+        <item>郭霖</item>
+        <item>乔布斯</item>
+    </string-array>
+    <string-array name="bookdetails">
+        <item>本书系统地介绍Java程序设计的基础知识、开发环境与开发工具。全书共分16章，内容包括Java程序设计语言概述、Java语言的基本语法、运算符与流程控制、面向对象基础、继承与多态、接口、异常处理、常用的实用类、集合、Java输入与输出、Swing程序设计、Swing高级应用、多线程、网络程序设计、JDBC数据库编程、腾宇超市管理系统。本书所有知识都以结合具体实例的形式进行介绍，力求详略得当，使读者快速掌握Java程序设计的方法。书后附有上机实验，供读者实践练习。
+本书为慕课版教材，各章节主要内容配备了以二维码为载体的微课，并在人邮学院平台上提供了慕课。此外，本书还提供了课程资源包，资源包中提供有本书所有实例、上机指导、综合案例和课程设计的源代码，制作精良的电子课件PPT，自测试卷等内容。资源包也可在人邮学院上下载。其中，源代码全部经过精心测试，能够在Windows 7、Windows 8、Windows 10系统下编译和运行。</item>
+        <item>本书采用传统的章节式写法，对C++的各个知识点进行了细致、深入的讲解，并配套有视频教学、PPT和源代码等素材，而且为了帮助读者更好地学习本书讲解的内容，还提供了在线答疑，并承诺在3小时内针对问题给予解答。</item>
+        <item>本书内容分为两大部分：首先讲解了Android游戏开发核心技术，主要包括Android游戏开发的前台渲染、交互式通信、数据存储和传感器、网络编程、游戏背后的数学与物理、游戏地图开发、游戏开发小秘技、JBox2D物理引擎、3D应用开发基础等；接下来介绍Android游戏开发实战综合案例，包括多种流行的游戏类型，如滚屏动作类游戏—《坦克大战》、网络游戏—《风火三国》、益智类游戏—《Wo!Water!》、3D塔防类游戏—《三国塔防》、策略游戏—《大富翁》、休闲类游戏—《切切乐》、休闲类游戏—《3D冰球》等。
+本书适合Android初学者、游戏开发人员阅读，也可作为高校相关专业的学习用书或培训学校的教材。</item>
+        <item>本书以Photoshop软件为基础，全面介绍了游戏UI设计中的理论知识及具体案例的制作方法。本书语言浅显易懂，配合丰富、精美的游戏UI设计案例，讲解游戏UI设计的相关知识和使用Photoshop软件进行游戏UI设计制作的方法和技巧，使读者在掌握设计知识的同时，能够在游戏UI设计制作的基础上做到活学活用。 本书配套学习资源，提供了书中所有案例的素材文件及效果源文件，同时还附赠了99例绘图笔刷，方便读者借鉴和使用。 本书适合有一定Photoshop基础的设计初学者及设计爱好者学习使用，也可以为相关行业的设计师及相关专业的学生提供参考。 </item>
+    </string-array>
+</resources>
